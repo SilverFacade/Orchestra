@@ -91,7 +91,7 @@ body
 {
     width: 100%;
 }
-/*------------services section-------------*/
+/*------------menu section-------------*/
 #services
 {
     background-color: #4956aa;
@@ -146,7 +146,7 @@ body
     border-radius: 20px;
 
 }
-/* ------About Me Section------ */
+/* ------Profile Section------ */
 
 #profile
 {
@@ -168,9 +168,14 @@ body
 {
     margin-top: 50px;
 }
+textarea
+{
+    text-indent: 0; /* Reset any indentation */
+    padding: 10px;  /* Adjust padding for placeholder */
+    white-space: pre-wrap;
+}
 
-
-/*---Contact Me Section---*/
+/*---Settings Section---*/
 #contact
 {
     background-color: #4956aa;
