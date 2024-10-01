@@ -141,16 +141,26 @@ body
 }
 /* ------Profile Section------ */
 
-#profile {
+#profile
+{
     background-color: #5450cd;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center child items horizontally */
-    justify-content: center; /* Center child items vertically */
     padding: 10px;
 }
-
+.title
+{
+    margin-top: 20px;
+}
+.about-title
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center; /* Center the title */
+}
 .col-md-6
 {
     display: flex;
@@ -158,13 +168,6 @@ body
     justify-content: center; /* Center textarea vertically */
     align-items: center; /* Center horizontally */
     width: 100%;
-}
-
-.about-title {
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 40px;
-    text-align: center; /* Center the title */
 }
 
 .img-fluid {
@@ -175,6 +178,25 @@ textarea
 {
     background: #7672ed;
     white-space: pre-wrap;
+}
+textarea::placeholder
+{
+    color: black;
+}
+
+
+.mp3-box {
+    width: 100%;
+    max-width: 600px; /* Sets a max width */
+    height: 200px; /* Height of the box */
+    border: 2px solid #000; /* Black border */
+    background-color: #f5f5f5; /* Light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto; /* Centered and adds margin */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow */
 }
 
 /*---Settings Section---*/
