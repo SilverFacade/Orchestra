@@ -105,13 +105,6 @@ body
 .services {
     margin-bottom: 20px;
 }
-
-.services-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 30 auto;
-}
 .services h4
 {
     padding-top: 5px;
@@ -148,30 +141,39 @@ body
 }
 /* ------Profile Section------ */
 
-#profile
-{
+#profile {
     background-color: #5450cd;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
+    align-items: center; /* Center child items horizontally */
+    justify-content: center; /* Center child items vertically */
+    padding: 10px;
 }
 
-.about-title
+.col-md-6
 {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center textarea vertically */
+    align-items: center; /* Center horizontally */
+    width: 100%;
+}
+
+.about-title {
     font-size: 30px;
     font-weight: 600;
     margin-top: 40px;
+    text-align: center; /* Center the title */
 }
-.img-fluid
-{
+
+.img-fluid {
     margin-top: 50px;
 }
+
 textarea
 {
-    text-indent: 0; /* Reset any indentation */
-    padding: 10px;  /* Adjust padding for placeholder */
+    background: #7672ed;
     white-space: pre-wrap;
 }
 
