@@ -7,18 +7,25 @@ body
 {
     font-family: sans-serif;
 }
-#nav-bar
-{
+#nav-bar{
     position: sticky;
     top: 0;
     z-index: 10;
 }
-.nav-link
-{
+.navbar .form-inline{
+    display: flex;
+    margin-right: auto;
+}
+.navbar .form-inline input{
+    margin-right: 10px;
+}
+.navbar .form-inline button{
+    white-space: nowrap;
+}
+.nav-link{
 
 }
-.navbar
-{
+.navbar{
     width: 100%;
     background-image: linear-gradient(to right, #8856af, #5450cd);
     padding: 0 !important;
@@ -38,24 +45,20 @@ body
 {
     height: 40px;
 }
-.navbar-nav li
-{
+.navbar-nav li{
     padding: 0 10px;
 }
-.navbar-nav li a
-{
+.navbar-nav li a{
     color: #000000 !important;
     font-weight: 600;
     float: right;
     text-align: right;
 }
-.fa-bars
-{
+.fa-bars{
     color: #ffffff;
     font-size: 30px !important;
 }
-.navbar-toggler
-{
+.navbar-toggler{
     outline: none !important;
 }
 /*----------banner section----------*/
