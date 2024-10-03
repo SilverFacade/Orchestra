@@ -182,7 +182,7 @@ body
 }
 textarea
 {
-    background: #7672ed;
+    background: #b7926d;
     white-space: pre-wrap;
 }
 textarea::placeholder
@@ -212,6 +212,18 @@ textarea::placeholder
 #admin-page
 {
     background-color: #b7926d;
+}
+
+/*---Login section---*/
+
+#login
+{
+    background-color: #b7926d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center child items horizontally */
+    padding: 10px;
 }
 
 
