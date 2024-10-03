@@ -27,7 +27,7 @@ body
 }
 .navbar{
     width: 100%;
-    background-image: linear-gradient(to right, #8856af, #5450cd);
+    background-image: linear-gradient(to right, #c1a080, #f8d6b4);
     padding: 0 !important;
 }
 .navbar-brand
@@ -63,7 +63,7 @@ body
 }
 /*----------banner section----------*/
 #banner {
-    background-color: #4956aa;
+    background-color: #b7926d;
     padding-top: 5%;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@ body
 /*------------menu section-------------*/
 #services
 {
-    background-color: #4956aa;
+    background-color: #b7926d;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -146,7 +146,7 @@ body
 
 #profile
 {
-    background-color: #5450cd;
+    background-color: #b7926d;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -208,37 +208,10 @@ textarea::placeholder
 {
 
 }
-/*---Settings Section---*/
-#contact
+/*---Admin Panel Section---*/
+#admin-page
 {
-    background-color: #4956aa;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
+    background-color: #b7926d;
 }
 
-.contact
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.contact img
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    display: block;
-}
-.contact p
-{
-    text-align: center;
-}
 
