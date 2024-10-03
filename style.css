@@ -61,6 +61,11 @@ body
 .navbar-toggler{
     outline: none !important;
 }
+
+.btn-primary {
+    background-color: #574029 !important; /* Change to your desired background color */
+    border-color: #574029 !important; /* Match the border color */
+}
 /*----------banner section----------*/
 #banner {
     background-color: #b7926d;
@@ -87,7 +92,7 @@ body
 }
 #banner a
 {
-    color: #4956aa;
+    color: #8e6b48;
     text-decoration: none;
 }
 .bottom-img
@@ -125,7 +130,7 @@ body
 
 .title::before {
     content: '';
-    background: #2a3478;
+    background: #8e6b48;
     height: 5px;
     width: 500px;
     display: block;
@@ -135,12 +140,19 @@ body
 
 #services .btn-primary
 {
+    color: #8e6b48;
     margin-left: auto;
     box-shadow: none;
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
 
+}
+
+.btn-respond {
+    background-color: #8e6b48 !important; /* Change to your desired background color */
+    border-color: #040303 !important; /* Match the border color */
+    margin: 1px;
 }
 /* ------Profile Section------ */
 
@@ -182,7 +194,7 @@ body
 }
 textarea
 {
-    background: #b7926d;
+    background: #f8d6b4;
     white-space: pre-wrap;
 }
 textarea::placeholder
@@ -190,12 +202,12 @@ textarea::placeholder
     color: black;
 }
 
-.mp3-box {
+.music-box {
     width: 100%;
     max-width: 600px; /* Sets a max width */
     height: 200px; /* Height of the box */
     border: 2px solid #000; /* Black border */
-    background-color: #f5f5f5; /* Light background color */
+    background-color: #f8d6b4; /* Light background color */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,10 +216,36 @@ textarea::placeholder
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow */
 }
 
-.audio
-{
-
+.audio-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures title and audio control are well spaced */
+    border: 2px solid #8e6b48; /* Change to desired border color */
+    background-color: #f1f1f1; /* Change to desired background color */
+    padding: 10px;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    margin-bottom: 15px; /* Adds space between multiple audio containers */
 }
+
+.audio-title {
+    font-size: 16px; /* Adjust the title font size as needed */
+    margin-right: 15px; /* Space between the title and the audio player */
+    color: #574029; /* Title color, adjust as needed */
+}
+
+audio {
+    flex-grow: 1; /* Makes the audio player take the remaining available space */
+    max-width: 200px; /* Adjust based on the desired size of the audio player */
+    height: 30px; /* Adjust for better alignment if needed */
+}
+
+.custom-btn
+{
+    background: #574029;
+    border-color: #040303;
+}
+
+
 /*---Admin Panel Section---*/
 #admin-page
 {
@@ -223,7 +261,8 @@ textarea::placeholder
     display: flex;
     flex-direction: column;
     align-items: center; /* Center child items horizontally */
-    padding: 10px;
+    padding: 0px;
 }
+
 
 
